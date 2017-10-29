@@ -1,7 +1,8 @@
 class VehiclesTrafficLights extends TrafficLights {
 
-	constructor() {
-		super('vehicles', 'red', 'yellow', 'green');
+	constructor(placeholder) {
+		super(placeholder, 'vehicles', 'red', 'yellow', 'green');
+		this.element.classList.add('vehicles');
 	}
 
 	on() {

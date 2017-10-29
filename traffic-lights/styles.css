@@ -1,0 +1,16 @@
+.light {
+   width: 120px;
+   height: 120px;
+}
+.light.off { opacity: .2 }
+.light.red { background: red }
+.light.green { background: green }
+.light.yellow { background: yellow }
+
+.traffic-lights {
+   display: inline-block;
+   margin: 20px;
+   background: black;
+}
+.traffic-lights .light { margin: 10px }
+.traffic-lights.vehicles .light { border-radius: 50% }

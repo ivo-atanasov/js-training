@@ -1,7 +1,7 @@
 class PedestriansTrafficLights extends TrafficLights {
 
-	constructor() {
-		super('pedestrians', 'red', 'green');
+	constructor(placeholder) {
+		super(placeholder, 'pedestrians', 'red', 'green');
 	}
 
 	on() {

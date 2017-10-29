@@ -1,9 +1,9 @@
 class PedestrianXingDispatcher {
 
-	constructor() {
+	constructor(placeholder) {
 		this.trafficlights = {
-			vehicles : new VehiclesTrafficLights(),
-			pedestrians : new PedestriansTrafficLights(),
+			vehicles : new VehiclesTrafficLights(placeholder),
+			pedestrians : new PedestriansTrafficLights(placeholder),
 		};
 		this.state = 0;
 	}
